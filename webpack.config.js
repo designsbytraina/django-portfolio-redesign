@@ -5,7 +5,7 @@ module.exports = {
     "./portfolio/rtg_com/static/js/App.jsx"
   ],
   output: {
-    path: __dirname + '/static',
+    path: __dirname + '/portfolio/rtg_com/static',
     filename: "bundle.js"
   },
   resolve: {
