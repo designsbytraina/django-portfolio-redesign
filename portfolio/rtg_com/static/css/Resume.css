@@ -1,0 +1,35 @@
+/* Resume */
+#resume {
+    /*background-color: #3D3656;*/
+    /*background-color: #C45271;*/
+    background-color: #6F94BD;
+    color: white;
+    height: 100%;
+    /*padding: 20px 18px;*/
+}
+#resume-preview {
+    /*max-height: 200px;*/
+    /*height: 65%;*/
+    /*margin-bottom: 20px;*/
+    margin: 5px;
+    padding: 5px;
+}
+#download-button {
+    /*margin-top: 10px;*/
+    /*padding-top: 10px;*/
+    /*background-color: red;*/
+    /*height: 30%;*/
+    /*text-align: center;*/
+    /*font-size: medium;*/
+    /*align-items: center;*/
+    /*margin-left: 17px;*/
+    /*text-decoration: none;*/
+    /*color: black;*/
+    color:#6F94BD;
+}
+#download-button:hover {
+    color: white;
+}
+#resume-heading {
+    font-family: 'Bungee Hairline', cursive;
+}

@@ -1,0 +1,57 @@
+
+/* Projects */
+#projects {
+    /*background-color: #7F456E;*/
+    /*background-color: #2778C7;*/
+    /*background-color: #2E8D90;*/
+    background-color: #39AFB2;
+    height: 100%;
+    /*color: white;*/
+    /*padding: 30px 18px;*/
+}
+.card {
+    /*background-color: rgba(237,187, 83,.1);*/
+    /*background-color: rgba(228,242,82,.1); */
+    background-color: #39AFB2;
+    color: white;
+    margin: 15px -7px;
+    box-shadow: 1px 1px 1px rgba(13,10,4,.5);
+    border-radius: 10px;
+    /*border: 1px solid rgba(237,187, 83,.9);*/
+    border: 1px solid rgba(228,242,82,.9); 
+}
+.card:hover{
+    background-color: rgba(61,188,191,.8); 
+}
+.card-title {
+    font-family: 'Bungee Hairline', cursive;
+}
+.github-link {
+/*            border-radius: 10px;
+    background-color: rgba(237,187, 83,.1);
+    color: rgba(237,187, 83,1);
+    border: 1px solid rgba(237,187, 83,1);*/
+    padding: 10px;
+    /*border-radius: 5px;*/
+    /*background-color: rgba(237,187, 83,1);*/
+    background-color: rgba(228,242,82,1); 
+    color: #39AFB2;
+    font-family: 'Bungee', cursive;
+    letter-spacing: 2px;
+    font-size: large;
+    text-align: center;
+}
+.github-link:hover {
+    background-color: rgba(237,187, 83,.8);
+    background-color: rgba(228,242,82,.8); 
+    color: white;
+}
+.list-group-item {
+    background-color: transparent;
+}
+#project-gif {
+    /*height: 120px;*/
+    /*width: auto;*/
+    max-width: 100%; 
+    height: auto;
+}

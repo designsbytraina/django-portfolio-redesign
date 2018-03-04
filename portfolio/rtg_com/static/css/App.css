@@ -1,0 +1,42 @@
+/* Main Styles */
+body {
+    /*background-image: url('./assets/painted-wall.jpeg');*/
+    /*background-color: red;*/
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgba(228,242,82,1); 
+}
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* All Sections */
+.section-heading {
+    font-family: 'Bungee', cursive;
+    /*text-align: center;*/
+    padding-bottom: 35px;
+}
+.subsection-dividers {
+/*    padding-top: 80px;
+    padding-left: 18px;
+    padding-bottom: 150px;*/
+    padding: 17% 10% 20% 10%;
+}
+.subsection-content{
+    /*padding-top: 40px;*/
+}
+.next-page {
+    color: white;
+    float: right;
+    font-weight: 700;
+    /*background-color: white;*/
+}
+.next-page:hover {
+    color: white;
+    border: 1px solid white;
+    /*background-color: rgba(255,255,255,1);*/
+}
+.btn {
+    font-family: 'Bungee Hairline', cursive;
+}

@@ -1,0 +1,93 @@
+/* Navigation */
+nav {
+    /*background-color: rgba(237,187, 83,.6);*/
+    background-color: rgba(228,242,82,.9); 
+    font-family: 'Bungee', cursive;
+}
+.my-icons {
+    width: 23px;
+    height: auto;
+    padding-left: 5px;
+    /*padding-right: 20px;*/
+    margin-right: 5px;
+}
+.navbar-brand {
+    font-size: x-large;
+    font-family: 'Bungee Shade', cursive;
+    /*font-weight: 700;*/
+    /*text-shadow: 1px 1px 2px rgba(0,0,0,.2);*/
+}
+#navbarSupportedContent {
+    /*background-color: red;*/
+    /*background-color: rgba(237,187, 83,.5);*/
+    /*background-color: rgba(228,242,82,.5); */
+    /*filter: blur(20px);*/
+    /*border-radius: 15px;*/
+    margin: 8px -15px -7px -15px;
+}
+.nav-item {
+    /*background-color: white;*/
+    /*border: none;*/
+    /*margin: 100px;*/
+    /*background-color: rgba(237,187, 83,.9);*/
+    /*text-shadow: 1px 1px 2px rgba(0,0,0,.2);*/
+    font-weight: 700;
+}
+#bottom-nav {
+    /*background-color: white;*/
+    background-color: rgba(255,255,255,.8); 
+    height: 40px; 
+    padding: 0px;
+    font-family: 'Bungee', cursive;
+    position: fixed;
+}
+.bottom-links {
+    color: grey; 
+    text-shadow: none;
+}
+.bottom-links:hover {
+    background-color: #FA6E60;
+    color: white;
+}
+
+/* Nav Links */
+#about-link:hover {
+    background-color: #FA6E60;
+}
+#about-link a {
+    color:white;
+    padding-left: 12px;
+}
+#tech-link:hover {
+    /*background-color: #C45271;*/
+    background-color: #5EC993;
+}
+#tech-link a {
+    color:white;
+    padding-left: 12px;
+}
+#projects-link:hover {
+    /*background-color: #7F456E;*/
+    background-color: #39AFB2;
+}
+#projects-link a {
+    color:white;
+    padding-left: 12px;
+}
+#resume-link:hover {
+    /*background-color: #3D3656;*/
+    background-color: #6F94BD;
+}
+#resume-link a{
+    color:white;
+    padding-left: 12px;
+}
+#contact-link:hover {
+    /*background-color: #082131;*/
+    /*background-color: #625896;*/
+    background-color: #6E24E5;
+}
+#contact-link a {
+    color:white;
+    padding-left: 12px;
+}

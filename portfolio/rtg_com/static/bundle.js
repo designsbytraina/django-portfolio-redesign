@@ -71,6 +71,30 @@
 
 	var _NavBar2 = _interopRequireDefault(_NavBar);
 
+	var _Welcome = __webpack_require__(161);
+
+	var _Welcome2 = _interopRequireDefault(_Welcome);
+
+	var _About = __webpack_require__(162);
+
+	var _About2 = _interopRequireDefault(_About);
+
+	var _Tech = __webpack_require__(163);
+
+	var _Tech2 = _interopRequireDefault(_Tech);
+
+	var _Projects = __webpack_require__(164);
+
+	var _Projects2 = _interopRequireDefault(_Projects);
+
+	var _Resume = __webpack_require__(165);
+
+	var _Resume2 = _interopRequireDefault(_Resume);
+
+	var _Contact = __webpack_require__(166);
+
+	var _Contact2 = _interopRequireDefault(_Contact);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -97,7 +121,17 @@
 	            return _react2.default.createElement(
 	                'div',
 	                null,
-	                _react2.default.createElement(_NavBar2.default, null)
+	                _react2.default.createElement(_NavBar2.default, null),
+	                _react2.default.createElement(
+	                    'div',
+	                    { className: 'container-fluid' },
+	                    _react2.default.createElement(_Welcome2.default, null),
+	                    _react2.default.createElement(_About2.default, null),
+	                    _react2.default.createElement(_Tech2.default, null),
+	                    _react2.default.createElement(_Projects2.default, null),
+	                    _react2.default.createElement(_Resume2.default, null),
+	                    _react2.default.createElement(_Contact2.default, null)
+	                )
 	            );
 	        }
 	    }]);
@@ -19850,10 +19884,10 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        "div",
-	        null,
+	        { className: "container-fluid" },
 	        _react2.default.createElement(
 	          "nav",
-	          { className: "navbar navbar-toggleable-xs navbar-inverse fixed-top" },
+	          { className: "navbar navbar-toggleable-xs navbar-light bg-light fixed-top" },
 	          _react2.default.createElement(
 	            "button",
 	            { className: "navbar-toggler navbar-toggler-right border-0", type: "button", "data-toggle": "collapse", "data-target": "#navbarSupportedContent", "aria-controls": "navbarSupportedContent", "aria-expanded": "false", "aria-label": "Toggle navigation" },
@@ -19876,7 +19910,7 @@
 	                _react2.default.createElement(
 	                  "a",
 	                  { className: "nav-link", href: "/about" },
-	                  _react2.default.createElement("img", { src: "./static/img/about-white.png", className: "my-icons" }),
+	                  _react2.default.createElement("img", { src: "../../static/img/about-white.png", className: "my-icons" }),
 	                  " about"
 	                )
 	              ),
@@ -19886,7 +19920,7 @@
 	                _react2.default.createElement(
 	                  "a",
 	                  { className: "nav-link", href: "/technologies" },
-	                  _react2.default.createElement("img", { src: "./static/img/tech-code.png", className: "my-icons" }),
+	                  _react2.default.createElement("img", { src: "../../static/img/tech-code.png", className: "my-icons" }),
 	                  " technologies"
 	                )
 	              ),
@@ -19896,7 +19930,7 @@
 	                _react2.default.createElement(
 	                  "a",
 	                  { className: "nav-link", href: "/projects" },
-	                  _react2.default.createElement("img", { src: "./static/img/projects-white.png", className: "my-icons" }),
+	                  _react2.default.createElement("img", { src: "../../static/img/projects-white.png", className: "my-icons" }),
 	                  " projects"
 	                )
 	              ),
@@ -19906,7 +19940,7 @@
 	                _react2.default.createElement(
 	                  "a",
 	                  { className: "nav-link", href: "/resume" },
-	                  _react2.default.createElement("img", { src: "./static/img/resume-white.png", className: "my-icons" }),
+	                  _react2.default.createElement("img", { src: "../../static/img/resume-white.png", className: "my-icons" }),
 	                  " r\xE9sum\xE9"
 	                )
 	              ),
@@ -19916,7 +19950,7 @@
 	                _react2.default.createElement(
 	                  "a",
 	                  { className: "nav-link", href: "/contact" },
-	                  _react2.default.createElement("img", { src: "./static/img/contact-white.png", className: "my-icons" }),
+	                  _react2.default.createElement("img", { src: "../../static/img/contact-white.png", className: "my-icons" }),
 	                  " contact"
 	                )
 	              )
@@ -19931,6 +19965,938 @@
 	}(_react2.default.Component);
 
 	exports.default = NavBar;
+
+/***/ }),
+/* 161 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Welcome = function (_React$Component) {
+	    _inherits(Welcome, _React$Component);
+
+	    function Welcome(props) {
+	        _classCallCheck(this, Welcome);
+
+	        var _this = _possibleConstructorReturn(this, (Welcome.__proto__ || Object.getPrototypeOf(Welcome)).call(this, props));
+
+	        _this.state = {};
+
+	        return _this;
+	    }
+
+	    _createClass(Welcome, [{
+	        key: "render",
+	        value: function render() {
+	            return _react2.default.createElement(
+	                "div",
+	                { id: "home", className: "jumbotron jumbotron-fluid row subsection-dividers" },
+	                _react2.default.createElement(
+	                    "div",
+	                    { className: "container" },
+	                    _react2.default.createElement(
+	                        "h1",
+	                        { className: "display-3" },
+	                        "rachel traina-grandon"
+	                    ),
+	                    _react2.default.createElement(
+	                        "p",
+	                        { className: "lead" },
+	                        "software engineer"
+	                    ),
+	                    _react2.default.createElement(
+	                        "a",
+	                        { className: "btn", role: "button", id: "learn-more-btn", href: "/about" },
+	                        "about me"
+	                    )
+	                )
+	            );
+	        }
+	    }]);
+
+	    return Welcome;
+	}(_react2.default.Component);
+
+	exports.default = Welcome;
+
+/***/ }),
+/* 162 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var About = function (_React$Component) {
+	    _inherits(About, _React$Component);
+
+	    function About(props) {
+	        _classCallCheck(this, About);
+
+	        var _this = _possibleConstructorReturn(this, (About.__proto__ || Object.getPrototypeOf(About)).call(this, props));
+
+	        _this.state = {};
+
+	        return _this;
+	    }
+
+	    _createClass(About, [{
+	        key: "render",
+	        value: function render() {
+	            return _react2.default.createElement(
+	                "div",
+	                { id: "about", className: "row subsection-dividers" },
+	                _react2.default.createElement(
+	                    "div",
+	                    _defineProperty({ className: "col-xs-12 col-sm-12 col-md-12 col-lg-12" }, "className", "about-text"),
+	                    _react2.default.createElement(
+	                        "h3",
+	                        { className: "section-heading hidden-lg-up" },
+	                        "hi there",
+	                        _react2.default.createElement(
+	                            "a",
+	                            { className: "next-page btn", role: "button", href: "/technologies" },
+	                            _react2.default.createElement("img", { src: "../../static/img/tech-code.png", className: "my-icons" }),
+	                            " tools"
+	                        )
+	                    )
+	                ),
+	                _react2.default.createElement("div", { className: "col-lg-2 hidden-md-down" }),
+	                _react2.default.createElement(
+	                    "div",
+	                    { className: "col-xs-12 col-sm-9 col-md-9 col-lg-6 about-text" },
+	                    _react2.default.createElement(
+	                        "p",
+	                        null,
+	                        _react2.default.createElement("br", { className: "hidden-md-down" }),
+	                        "I am a Full Stack Software Engineer in the SF Bay Area who brings holistic development and functional beauty to applications. With professional experience in the music, retail, political and tech industries, I strive to be the Swiss Army Knife in any situation."
+	                    ),
+	                    _react2.default.createElement(
+	                        "p",
+	                        null,
+	                        "In my free time, I love to learn, empower others to pursue STEM and dive deep into the problems of tomorrow."
+	                    ),
+	                    _react2.default.createElement(
+	                        "p",
+	                        null,
+	                        "Let's make something together!"
+	                    ),
+	                    _react2.default.createElement("br", null),
+	                    _react2.default.createElement(
+	                        "h6",
+	                        null,
+	                        _react2.default.createElement("img", { src: "../../static/img/about-white.png", className: "my-icons" }),
+	                        " Why Designs by Traina?"
+	                    ),
+	                    _react2.default.createElement(
+	                        "p",
+	                        null,
+	                        "My grandfather, Vincent Traina, made bespoke signs for local businesses (+ painted merry-go-rounds) in the SF Bay Area under the moniker of Signs by Traina. His lore will always be an inspiration."
+	                    )
+	                ),
+	                _react2.default.createElement(
+	                    "div",
+	                    { className: "hidden-xs-down col-sm-3 col-md-3 col-lg-2" },
+	                    _react2.default.createElement("img", { src: "../../static/img/rtg-portrait.jpg", className: "img-fluid", id: "about-portrait", alt: "Rachel Traina-Grandon portrait" })
+	                ),
+	                _react2.default.createElement("div", { className: "col-lg-2 hidden-md-down" })
+	            );
+	        }
+	    }]);
+
+	    return About;
+	}(_react2.default.Component);
+
+	exports.default = About;
+
+/***/ }),
+/* 163 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Tech = function (_React$Component) {
+	    _inherits(Tech, _React$Component);
+
+	    function Tech(props) {
+	        _classCallCheck(this, Tech);
+
+	        var _this = _possibleConstructorReturn(this, (Tech.__proto__ || Object.getPrototypeOf(Tech)).call(this, props));
+
+	        _this.state = {};
+
+	        return _this;
+	    }
+
+	    _createClass(Tech, [{
+	        key: "render",
+	        value: function render() {
+	            return _react2.default.createElement(
+	                "div",
+	                { id: "technologies", className: "row subsection-dividers" },
+	                _react2.default.createElement(
+	                    "div",
+	                    { className: "col-xs-12 col-sm-12 col-md-12 col-lg-12" },
+	                    _react2.default.createElement(
+	                        "h3",
+	                        { className: "section-heading hidden-md-down" },
+	                        "Technologies",
+	                        _react2.default.createElement(
+	                            "a",
+	                            { className: "next-page btn", role: "button", href: "/projects" },
+	                            _react2.default.createElement("img", { src: "../../static/img/projects-white.png", className: "my-icons" }),
+	                            " projects"
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        "h3",
+	                        { className: "section-heading hidden-lg-up" },
+	                        "tools",
+	                        _react2.default.createElement(
+	                            "a",
+	                            { className: "next-page btn", role: "button", href: "/projects" },
+	                            _react2.default.createElement("img", { src: "../../static/img/projects-white.png", className: "my-icons" }),
+	                            " projects"
+	                        )
+	                    )
+	                ),
+	                _react2.default.createElement("div", { className: "hidden-lg-down col-xl-2" }),
+	                _react2.default.createElement(
+	                    "div",
+	                    { className: "col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-2" },
+	                    _react2.default.createElement(
+	                        "ul",
+	                        { className: "tech-list" },
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-header" },
+	                            "Languages"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 5/5</strong></span>" },
+	                            "Python"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 4/5</strong></span>" },
+	                            "JavaScript"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 5/5</strong></span>" },
+	                            "HTML5"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 5/5</strong></span>" },
+	                            "CSS3"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 4/5</strong></span>" },
+	                            "SQL"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 4/5</strong></span>" },
+	                            "Unix Commands"
+	                        )
+	                    )
+	                ),
+	                _react2.default.createElement(
+	                    "div",
+	                    { className: "col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-2" },
+	                    _react2.default.createElement(
+	                        "ul",
+	                        { className: "tech-list" },
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-header" },
+	                            "Frameworks"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 5/5</strong></span>" },
+	                            "Flask"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 3/5</strong></span>" },
+	                            "Django"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 4/5</strong></span>" },
+	                            "jQuery"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 4/5</strong></span>" },
+	                            "Node"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 4/5</strong></span>" },
+	                            "Express"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 3/5</strong></span>" },
+	                            "React"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 5/5</strong></span>" },
+	                            "Bootstrap"
+	                        )
+	                    )
+	                ),
+	                _react2.default.createElement(
+	                    "div",
+	                    { className: "col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-2" },
+	                    _react2.default.createElement(
+	                        "ul",
+	                        { className: "tech-list" },
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-header" },
+	                            "Database + Deployment"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 3/5</strong></span>" },
+	                            "PostgreSQL"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 3/5</strong></span>" },
+	                            "SQLite"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 3/5</strong></span>" },
+	                            "Heroku"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 2/5</strong></span>" },
+	                            "AWS"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 3/5</strong></span>" },
+	                            "Docker"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 5/5</strong></span>" },
+	                            "Atlassian Suite"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 2/5</strong></span>" },
+	                            "Security"
+	                        )
+	                    )
+	                ),
+	                _react2.default.createElement(
+	                    "div",
+	                    { className: "col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-2" },
+	                    _react2.default.createElement(
+	                        "ul",
+	                        { className: "tech-list" },
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-header" },
+	                            "Web + OS + Tools"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 5/5</strong></span>" },
+	                            "AJAX"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 3/5</strong></span>" },
+	                            "Web Sockets"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 3/5</strong></span>" },
+	                            "Linux"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 5/5</strong></span>" },
+	                            "macOS (OS X)"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 5/5</strong></span>" },
+	                            "Git"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 5/5</strong></span>" },
+	                            "GitHub"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 5/5</strong></span>" },
+	                            "BitBucket"
+	                        )
+	                    )
+	                ),
+	                _react2.default.createElement("div", { className: "hidden-lg-down col-xl-2" })
+	            );
+	        }
+	    }]);
+
+	    return Tech;
+	}(_react2.default.Component);
+
+	exports.default = Tech;
+
+/***/ }),
+/* 164 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Projects = function (_React$Component) {
+	    _inherits(Projects, _React$Component);
+
+	    function Projects(props) {
+	        _classCallCheck(this, Projects);
+
+	        var _this = _possibleConstructorReturn(this, (Projects.__proto__ || Object.getPrototypeOf(Projects)).call(this, props));
+
+	        _this.state = {};
+
+	        return _this;
+	    }
+
+	    _createClass(Projects, [{
+	        key: "render",
+	        value: function render() {
+	            return _react2.default.createElement(
+	                "div",
+	                { id: "projects", className: "row subsection-dividers" },
+	                _react2.default.createElement(
+	                    "div",
+	                    { className: "col-xs-12 col-sm-12 col-md-12 col-lg-12" },
+	                    _react2.default.createElement(
+	                        "h3",
+	                        { className: "section-heading" },
+	                        "Projects",
+	                        _react2.default.createElement(
+	                            "a",
+	                            { className: "next-page btn", role: "button", href: "/resume" },
+	                            _react2.default.createElement("img", { src: "../../static/img/resume-white.png", className: "my-icons" }),
+	                            " r\xE9sum\xE9"
+	                        )
+	                    )
+	                ),
+	                _react2.default.createElement(
+	                    "div",
+	                    { className: "card-deck" },
+	                    _react2.default.createElement(
+	                        "div",
+	                        { className: "col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch" },
+	                        _react2.default.createElement(
+	                            "div",
+	                            { className: "card" },
+	                            _react2.default.createElement(
+	                                "div",
+	                                { className: "card-block" },
+	                                _react2.default.createElement(
+	                                    "h4",
+	                                    { className: "card-title" },
+	                                    "should i wear a jacket?"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "p",
+	                                    { className: "card-text" },
+	                                    "An application built with another instructor as an example for students to reference in the Hackbright Part-Time Program. It uses Python, Flask, HTML and CSS to illustrate computer science fundamentals, including APIs, modules and requests."
+	                                )
+	                            ),
+	                            _react2.default.createElement("img", { className: "card-img-top img-fluid", id: "project-gif", src: "../../static/img/wear-jacket.gif", alt: "should i wear a jacket gif" }),
+	                            _react2.default.createElement(
+	                                "ul",
+	                                { className: "list-group list-group-flush" },
+	                                _react2.default.createElement(
+	                                    "li",
+	                                    { className: "list-group-item card-list" },
+	                                    "Built With | Python, HTML, CSS, Flask, Jinja2, AccuWeather API"
+	                                )
+	                            ),
+	                            _react2.default.createElement(
+	                                "div",
+	                                { className: "card-block" },
+	                                _react2.default.createElement(
+	                                    "a",
+	                                    { href: "https://github.com/designsbytraina/flask-weather-app", className: "card-link github-link" },
+	                                    "GitHub"
+	                                )
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        "div",
+	                        { className: "col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch" },
+	                        _react2.default.createElement(
+	                            "div",
+	                            { className: "card" },
+	                            _react2.default.createElement(
+	                                "div",
+	                                { className: "card-block" },
+	                                _react2.default.createElement(
+	                                    "h4",
+	                                    { className: "card-title" },
+	                                    "parl\xE9 lune"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "p",
+	                                    { className: "card-text" },
+	                                    "A chat application for dreamers built with Node, Express, and Socket.io. ",
+	                                    _react2.default.createElement("br", null),
+	                                    _react2.default.createElement("br", null),
+	                                    "This project is temporarily on hold and more features (+ deployment) will be added soon."
+	                                )
+	                            ),
+	                            _react2.default.createElement("img", { className: "card-img-top img-fluid", id: "project-gif", src: "../../static/img/parle-lune.gif", alt: "parl\xE9 lune gif" }),
+	                            _react2.default.createElement(
+	                                "ul",
+	                                { className: "list-group list-group-flush" },
+	                                _react2.default.createElement(
+	                                    "li",
+	                                    { className: "list-group-item card-list" },
+	                                    "Built With | Node.js, Express.js, HTML, CSS, JavaScript, Socket.io, Redis, additional TBD"
+	                                )
+	                            ),
+	                            _react2.default.createElement(
+	                                "div",
+	                                { className: "card-block" },
+	                                _react2.default.createElement(
+	                                    "a",
+	                                    { href: "https://github.com/designsbytraina/parle-lune", className: "card-link github-link" },
+	                                    "GitHub"
+	                                )
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        "div",
+	                        { className: "col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch" },
+	                        _react2.default.createElement(
+	                            "div",
+	                            { className: "card" },
+	                            _react2.default.createElement(
+	                                "div",
+	                                { className: "card-block" },
+	                                _react2.default.createElement(
+	                                    "h4",
+	                                    { className: "card-title" },
+	                                    "pok\xE9see pok\xE9do"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "p",
+	                                    { className: "card-text" },
+	                                    "A companion application for Pok\xE9mon GO which allows users to plan an optimized route for catching Pok\xE9mon, while visiting local points of interest and having fun with friends. As the user traverses zir path, Pok\xE9mon can be marked as 'caught' and added to zir collection of Pok\xE9mon, which can later be accessed from the user's profile page.",
+	                                    _react2.default.createElement("br", null),
+	                                    _react2.default.createElement("br", null),
+	                                    _react2.default.createElement(
+	                                        "a",
+	                                        { href: "https://pokeseepokedo.herokuapp.com", className: "card-link github-link" },
+	                                        "View Demo"
+	                                    )
+	                                )
+	                            ),
+	                            _react2.default.createElement(
+	                                "div",
+	                                { className: "embed-responsive embed-responsive-16by9" },
+	                                _react2.default.createElement("iframe", { className: "embed-responsive-item", src: "https://www.youtube.com/embed/Z_xZIh555r0", allowfullscreen: true })
+	                            ),
+	                            _react2.default.createElement(
+	                                "ul",
+	                                { className: "list-group list-group-flush" },
+	                                _react2.default.createElement(
+	                                    "li",
+	                                    { className: "list-group-item card-list" },
+	                                    "Built With | Python, JavaScript, jQuery, HTML, CSS, SQLAlchemy, PostgreSQL, Flask, Jinja, Bootstrap, Google Maps API, Yelp API"
+	                                )
+	                            ),
+	                            _react2.default.createElement(
+	                                "div",
+	                                { className: "card-block" },
+	                                _react2.default.createElement(
+	                                    "a",
+	                                    { href: "https://github.com/designsbytraina/pokeseepokedo", className: "card-link github-link" },
+	                                    "GitHub"
+	                                )
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        "div",
+	                        { className: "col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch" },
+	                        _react2.default.createElement(
+	                            "div",
+	                            { className: "card" },
+	                            _react2.default.createElement(
+	                                "div",
+	                                { className: "card-block" },
+	                                _react2.default.createElement(
+	                                    "h4",
+	                                    { className: "card-title" },
+	                                    "tic-tac-toe"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "p",
+	                                    { className: "card-text" },
+	                                    "A command line interface for Tic-Tac-Toe written in Python."
+	                                )
+	                            ),
+	                            _react2.default.createElement(
+	                                "ul",
+	                                { className: "list-group list-group-flush" },
+	                                _react2.default.createElement(
+	                                    "li",
+	                                    { className: "list-group-item card-list" },
+	                                    "Built With | Python"
+	                                )
+	                            ),
+	                            _react2.default.createElement(
+	                                "div",
+	                                { className: "card-block" },
+	                                _react2.default.createElement(
+	                                    "a",
+	                                    { href: "https://github.com/designsbytraina/python-tictactoe", className: "card-link github-link" },
+	                                    "GitHub"
+	                                )
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        "div",
+	                        { className: "col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch" },
+	                        _react2.default.createElement(
+	                            "div",
+	                            { className: "card" },
+	                            _react2.default.createElement(
+	                                "div",
+	                                { className: "card-block" },
+	                                _react2.default.createElement(
+	                                    "h4",
+	                                    { className: "card-title" },
+	                                    "this portfolio"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "p",
+	                                    { className: "card-text" },
+	                                    "This site was made with Flask + Love and deployed to Heroku."
+	                                )
+	                            ),
+	                            _react2.default.createElement(
+	                                "ul",
+	                                { className: "list-group list-group-flush" },
+	                                _react2.default.createElement(
+	                                    "li",
+	                                    { className: "list-group-item card-list" },
+	                                    "Built With | Python, Flask, Jinja, Bootstrap, Heroku"
+	                                )
+	                            ),
+	                            _react2.default.createElement(
+	                                "div",
+	                                { className: "card-block" },
+	                                _react2.default.createElement(
+	                                    "a",
+	                                    { href: "https://github.com/designsbytraina/designsbytraina", className: "card-link github-link" },
+	                                    "GitHub"
+	                                )
+	                            )
+	                        )
+	                    )
+	                )
+	            );
+	        }
+	    }]);
+
+	    return Projects;
+	}(_react2.default.Component);
+
+	exports.default = Projects;
+
+/***/ }),
+/* 165 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Resume = function (_React$Component) {
+	    _inherits(Resume, _React$Component);
+
+	    function Resume(props) {
+	        _classCallCheck(this, Resume);
+
+	        var _this = _possibleConstructorReturn(this, (Resume.__proto__ || Object.getPrototypeOf(Resume)).call(this, props));
+
+	        _this.state = {};
+
+	        return _this;
+	    }
+
+	    _createClass(Resume, [{
+	        key: "render",
+	        value: function render() {
+	            return _react2.default.createElement(
+	                "div",
+	                { id: "resume", className: "row subsection-dividers" },
+	                _react2.default.createElement(
+	                    "div",
+	                    { className: "col-xs-12 col-sm-12 col-md-12 col-lg-12" },
+	                    _react2.default.createElement(
+	                        "h3",
+	                        { className: "section-heading" },
+	                        "resume",
+	                        _react2.default.createElement(
+	                            "a",
+	                            { className: "next-page btn", role: "button", href: "/contact" },
+	                            _react2.default.createElement("img", { src: "../../static/img/contact-white.png", className: "my-icons" }),
+	                            " contact"
+	                        )
+	                    )
+	                ),
+	                _react2.default.createElement("div", { className: "col-lg-2 hidden-md-down" }),
+	                _react2.default.createElement(
+	                    "div",
+	                    { className: "col-xs-12 col-sm-12 col-md-9 col-lg-6 about-text" },
+	                    _react2.default.createElement(
+	                        "h4",
+	                        { id: "resume-heading" },
+	                        "Rachel Traina-Grandon"
+	                    ),
+	                    _react2.default.createElement(
+	                        "p",
+	                        null,
+	                        "Full Stack Software Engineer with previous experience in Product Management + UI/UX"
+	                    ),
+	                    _react2.default.createElement(
+	                        "div",
+	                        { className: "hidden-md-down" },
+	                        _react2.default.createElement("br", null)
+	                    ),
+	                    _react2.default.createElement(
+	                        "a",
+	                        { href: "../../static/img/Traina-Grandon_Resume_2017-c.pdf", className: "card-link github-link", id: "download-button" },
+	                        "Download CV"
+	                    )
+	                ),
+	                _react2.default.createElement(
+	                    "div",
+	                    { className: "hidden-sm-down col-md-3 col-lg-2" },
+	                    _react2.default.createElement("img", { src: "../../static/img/resume-preview.png", className: "img-fluid", id: "resume-preview", alt: "Rachel Traina-Grandon resume" })
+	                ),
+	                _react2.default.createElement("div", { className: "col-lg-2 hidden-md-down" })
+	            );
+	        }
+	    }]);
+
+	    return Resume;
+	}(_react2.default.Component);
+
+	exports.default = Resume;
+
+/***/ }),
+/* 166 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Contact = function (_React$Component) {
+	    _inherits(Contact, _React$Component);
+
+	    function Contact(props) {
+	        _classCallCheck(this, Contact);
+
+	        var _this = _possibleConstructorReturn(this, (Contact.__proto__ || Object.getPrototypeOf(Contact)).call(this, props));
+
+	        _this.state = {};
+
+	        return _this;
+	    }
+
+	    _createClass(Contact, [{
+	        key: "render",
+	        value: function render() {
+	            return _react2.default.createElement(
+	                "div",
+	                { id: "contact", className: "row subsection-dividers d-flex align-items-stretch" },
+	                _react2.default.createElement(
+	                    "div",
+	                    { className: "col-xs-12 col-sm-12 col-md-12 col-lg-12" },
+	                    _react2.default.createElement(
+	                        "h3",
+	                        { className: "section-heading" },
+	                        "contact",
+	                        _react2.default.createElement(
+	                            "a",
+	                            { className: "next-page btn", role: "button", href: "/" },
+	                            "back"
+	                        )
+	                    )
+	                ),
+	                _react2.default.createElement(
+	                    "div",
+	                    { className: "col-xs-12 col-sm-12 col-md-12 col-lg-6 about-text" },
+	                    _react2.default.createElement(
+	                        "p",
+	                        null,
+	                        "designsbytraina |",
+	                        _react2.default.createElement(
+	                            "a",
+	                            { href: "https://github.com/designsbytraina", className: "card-link github-link", id: "contact-me" },
+	                            "GitHub"
+	                        ),
+	                        _react2.default.createElement("br", null),
+	                        "@designsbytraina |",
+	                        _react2.default.createElement(
+	                            "a",
+	                            { href: "https://twitter.com/designsbytraina", className: "card-link github-link", id: "contact-me" },
+	                            "Twitter"
+	                        ),
+	                        _react2.default.createElement("br", null),
+	                        "connect |",
+	                        _react2.default.createElement(
+	                            "a",
+	                            { href: "https://www.linkedin.com/in/racheltrainagrandon", className: "card-link github-link", id: "contact-me" },
+	                            "LinkedIn"
+	                        )
+	                    )
+	                ),
+	                _react2.default.createElement("div", { className: "typeform-widget col-lg-6 col-xs-12 col-sm-12 col-md-12", id: "typeform-contact", "data-url": "https://rachel551.typeform.com/to/KIcljG" }),
+	                _react2.default.createElement(
+	                    "div",
+	                    null,
+	                    _react2.default.createElement("a", { href: "https://www.typeform.com/examples/forms/contact-form-template/?utm_campaign=KIcljG&utm_source=typeform.com-5796311-Basic&utm_medium=typeform&utm_content=typeform-embedded-contactform&utm_term=EN", target: "_blank" })
+	                )
+	            );
+	        }
+	    }]);
+
+	    return Contact;
+	}(_react2.default.Component);
+
+	exports.default = Contact;
 
 /***/ })
 /******/ ]);

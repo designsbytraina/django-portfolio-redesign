@@ -1,0 +1,48 @@
+/* Technologies */
+#technologies {
+    /*background-color: #C45271;*/
+    /*background-color: #BC9EF3;*/
+    background-color: #5EC993;
+    color: white;
+    height: 100%;
+    /*padding: 30px 18px;*/
+}
+.tech-list-header {
+    text-align: center;
+    padding: 5px;
+    margin: 2px 5px 8px 5px;
+    width: 80%;
+    font-family: 'Bungee Hairline', cursive;
+    /*font-size: medium;*/
+}
+.tech-list {
+    list-style: none;
+    /*padding-bottom: 0px;*/
+    margin-bottom: 0px;
+}
+.tech-list-item {
+    /*background-color: rgba(237,187, 83,.2);*/
+    /*background-color: rgba(228,242,82,.1);*/
+    /*border: 1px solid rgba(237,187, 83,.9);*/
+    background-color: rgba(228,242,82,.9);
+    /*border: 1px solid rgba(228,242,82,.9); */
+    color: #5EC993;
+    /*border-radius: 10px;*/
+    text-align: center;
+    padding: 5px;
+    margin: 5px 5px;
+    width: 80%;
+    font-family: 'Bungee', cursive;
+    /*font-size: large;*/
+    /*font-size: small;*/
+    /*text-decoration: none;*/
+    /*padding: 0 20px;*/
+    /*box-shadow: 1px 1px 1px rgba(13,10,4,.5);*/
+}
+.tech-list-item:hover {
+    /*background-color: rgba(237,187, 83,.7);*/
+    background-color: rgba(228,242,82,.5);
+    color: white;
+    /*color: rgba(237,187, 83,1);*/
+}
+

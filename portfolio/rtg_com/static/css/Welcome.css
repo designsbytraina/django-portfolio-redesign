@@ -1,0 +1,18 @@
+/* Home */
+#home {
+    padding: 10% 6%;
+    background-color: #E4F252;
+    color: white;
+    /*height: 120%;*/
+    margin-bottom: 0px;
+    /*padding-bottom: 100px;*/
+}
+#learn-more-btn {
+    color: white;
+    font-size: large;
+}
+#learn-more-btn:hover {
+    color: white;
+    font-size: large;
+    border: 1px solid white;
+}
