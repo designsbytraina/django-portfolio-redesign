@@ -14,7 +14,7 @@ export default class Contact extends React.Component {
           <div id="contact" className="row subsection-dividers d-flex align-items-stretch">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                   <h3 className="section-heading">contact
-                          <a className="next-page btn" role="button" href="/">back</a>
+                          <a className="next-page btn" role="button" href="#home">back to top</a>
                   </h3>
               </div>
 

@@ -19887,7 +19887,7 @@
 	        { className: "container-fluid" },
 	        _react2.default.createElement(
 	          "nav",
-	          { className: "navbar navbar-toggleable-xs navbar-light bg-light fixed-top" },
+	          { className: "navbar navbar-toggleable-xs navbar-light fixed-top", id: "navbar-top", style: { backgroundColor: 'rgba(230, 194, 239,.9)' } },
 	          _react2.default.createElement(
 	            "button",
 	            { className: "navbar-toggler navbar-toggler-right border-0", type: "button", "data-toggle": "collapse", "data-target": "#navbarSupportedContent", "aria-controls": "navbarSupportedContent", "aria-expanded": "false", "aria-label": "Toggle navigation" },
@@ -19895,7 +19895,7 @@
 	          ),
 	          _react2.default.createElement(
 	            "a",
-	            { className: "navbar-brand", href: "/" },
+	            { className: "navbar-brand", href: "#", style: { color: 'dimgrey' } },
 	            "designs by traina"
 	          ),
 	          _react2.default.createElement(
@@ -19909,9 +19909,8 @@
 	                { className: "nav-item", id: "about-link" },
 	                _react2.default.createElement(
 	                  "a",
-	                  { className: "nav-link", href: "/about" },
-	                  _react2.default.createElement("img", { src: "../../static/img/about-white.png", className: "my-icons" }),
-	                  " about"
+	                  { className: "nav-link", href: "#about" },
+	                  "about"
 	                )
 	              ),
 	              _react2.default.createElement(
@@ -19919,9 +19918,8 @@
 	                { className: "nav-item", id: "tech-link" },
 	                _react2.default.createElement(
 	                  "a",
-	                  { className: "nav-link", href: "/technologies" },
-	                  _react2.default.createElement("img", { src: "../../static/img/tech-code.png", className: "my-icons" }),
-	                  " technologies"
+	                  { className: "nav-link", href: "#technologies" },
+	                  "technologies"
 	                )
 	              ),
 	              _react2.default.createElement(
@@ -19929,9 +19927,8 @@
 	                { className: "nav-item", id: "projects-link" },
 	                _react2.default.createElement(
 	                  "a",
-	                  { className: "nav-link", href: "/projects" },
-	                  _react2.default.createElement("img", { src: "../../static/img/projects-white.png", className: "my-icons" }),
-	                  " projects"
+	                  { className: "nav-link", href: "#projects" },
+	                  "projects"
 	                )
 	              ),
 	              _react2.default.createElement(
@@ -19939,9 +19936,8 @@
 	                { className: "nav-item", id: "resume-link" },
 	                _react2.default.createElement(
 	                  "a",
-	                  { className: "nav-link", href: "/resume" },
-	                  _react2.default.createElement("img", { src: "../../static/img/resume-white.png", className: "my-icons" }),
-	                  " r\xE9sum\xE9"
+	                  { className: "nav-link", href: "#resume" },
+	                  "r\xE9sum\xE9"
 	                )
 	              ),
 	              _react2.default.createElement(
@@ -19949,9 +19945,8 @@
 	                { className: "nav-item", id: "contact-link" },
 	                _react2.default.createElement(
 	                  "a",
-	                  { className: "nav-link", href: "/contact" },
-	                  _react2.default.createElement("img", { src: "../../static/img/contact-white.png", className: "my-icons" }),
-	                  " contact"
+	                  { className: "nav-link", href: "#contact" },
+	                  "contact"
 	                )
 	              )
 	            )
@@ -20015,16 +20010,16 @@
 	                    _react2.default.createElement(
 	                        "h1",
 	                        { className: "display-3" },
-	                        "rachel traina-grandon"
+	                        "rachel a. traina-grandon"
 	                    ),
 	                    _react2.default.createElement(
 	                        "p",
 	                        { className: "lead" },
-	                        "software engineer"
+	                        "software engineer + educator"
 	                    ),
 	                    _react2.default.createElement(
 	                        "a",
-	                        { className: "btn", role: "button", id: "learn-more-btn", href: "/about" },
+	                        { className: "btn", role: "button", id: "learn-more-btn", href: "#about" },
 	                        "about me"
 	                    )
 	                )
@@ -20055,8 +20050,6 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
@@ -20084,58 +20077,60 @@
 	                { id: "about", className: "row subsection-dividers" },
 	                _react2.default.createElement(
 	                    "div",
-	                    _defineProperty({ className: "col-xs-12 col-sm-12 col-md-12 col-lg-12" }, "className", "about-text"),
+	                    { className: "col-xs-12 col-sm-12 col-md-12 col-lg-12" },
 	                    _react2.default.createElement(
 	                        "h3",
-	                        { className: "section-heading hidden-lg-up" },
+	                        { className: "section-heading" },
 	                        "hi there",
 	                        _react2.default.createElement(
 	                            "a",
-	                            { className: "next-page btn", role: "button", href: "/technologies" },
+	                            { className: "next-page btn", role: "button", href: "#technologies" },
 	                            _react2.default.createElement("img", { src: "../../static/img/tech-code.png", className: "my-icons" }),
 	                            " tools"
 	                        )
 	                    )
 	                ),
-	                _react2.default.createElement("div", { className: "col-lg-2 hidden-md-down" }),
 	                _react2.default.createElement(
 	                    "div",
-	                    { className: "col-xs-12 col-sm-9 col-md-9 col-lg-6 about-text" },
+	                    { className: "row" },
 	                    _react2.default.createElement(
-	                        "p",
-	                        null,
-	                        _react2.default.createElement("br", { className: "hidden-md-down" }),
-	                        "I am a Full Stack Software Engineer in the SF Bay Area who brings holistic development and functional beauty to applications. With professional experience in the music, retail, political and tech industries, I strive to be the Swiss Army Knife in any situation."
+	                        "div",
+	                        { className: "col-xs-12 col-sm-8 col-md-8 col-lg-8 offset-lg-1 offset-md-1 offset-sm-1 about-text" },
+	                        _react2.default.createElement(
+	                            "p",
+	                            null,
+	                            _react2.default.createElement("br", { className: "d-none d-lg-block d-xl-block" }),
+	                            "I am a Full Stack Software Engineer in the SF Bay Area who brings holistic development and functional beauty to applications. With professional experience in the music, retail, political and tech industries, I strive to be the Swiss Army Knife in any situation."
+	                        ),
+	                        _react2.default.createElement(
+	                            "p",
+	                            null,
+	                            "In my free time, I love to learn, empower others to pursue STEM and dive deep into the problems of tomorrow."
+	                        ),
+	                        _react2.default.createElement(
+	                            "p",
+	                            null,
+	                            "Let's make something together!"
+	                        ),
+	                        _react2.default.createElement("br", null),
+	                        _react2.default.createElement(
+	                            "h6",
+	                            null,
+	                            _react2.default.createElement("img", { src: "../../static/img/about-white.png", className: "my-icons" }),
+	                            " Why Designs by Traina?"
+	                        ),
+	                        _react2.default.createElement(
+	                            "p",
+	                            null,
+	                            "My grandfather, Vincent Traina, made bespoke signs for local businesses (+ painted merry-go-rounds) in the SF Bay Area under the moniker of Signs by Traina. His lore will always be an inspiration."
+	                        )
 	                    ),
 	                    _react2.default.createElement(
-	                        "p",
-	                        null,
-	                        "In my free time, I love to learn, empower others to pursue STEM and dive deep into the problems of tomorrow."
-	                    ),
-	                    _react2.default.createElement(
-	                        "p",
-	                        null,
-	                        "Let's make something together!"
-	                    ),
-	                    _react2.default.createElement("br", null),
-	                    _react2.default.createElement(
-	                        "h6",
-	                        null,
-	                        _react2.default.createElement("img", { src: "../../static/img/about-white.png", className: "my-icons" }),
-	                        " Why Designs by Traina?"
-	                    ),
-	                    _react2.default.createElement(
-	                        "p",
-	                        null,
-	                        "My grandfather, Vincent Traina, made bespoke signs for local businesses (+ painted merry-go-rounds) in the SF Bay Area under the moniker of Signs by Traina. His lore will always be an inspiration."
+	                        "div",
+	                        { className: "d-none d-sm-block col-sm-2 col-md-2 col-lg-2" },
+	                        _react2.default.createElement("img", { src: "../../static/img/rtg-portrait.jpg", className: "img-fluid", id: "about-portrait", alt: "Rachel Traina-Grandon portrait" })
 	                    )
-	                ),
-	                _react2.default.createElement(
-	                    "div",
-	                    { className: "hidden-xs-down col-sm-3 col-md-3 col-lg-2" },
-	                    _react2.default.createElement("img", { src: "../../static/img/rtg-portrait.jpg", className: "img-fluid", id: "about-portrait", alt: "Rachel Traina-Grandon portrait" })
-	                ),
-	                _react2.default.createElement("div", { className: "col-lg-2 hidden-md-down" })
+	                )
 	            );
 	        }
 	    }]);
@@ -20193,31 +20188,30 @@
 	                    { className: "col-xs-12 col-sm-12 col-md-12 col-lg-12" },
 	                    _react2.default.createElement(
 	                        "h3",
-	                        { className: "section-heading hidden-md-down" },
-	                        "Technologies",
+	                        { className: "section-heading hidden-md-down d-none d-sm-none d-md-block d-lg-block" },
+	                        "technologies",
 	                        _react2.default.createElement(
 	                            "a",
-	                            { className: "next-page btn", role: "button", href: "/projects" },
+	                            { className: "next-page btn", role: "button", href: "#projects" },
 	                            _react2.default.createElement("img", { src: "../../static/img/projects-white.png", className: "my-icons" }),
 	                            " projects"
 	                        )
 	                    ),
 	                    _react2.default.createElement(
 	                        "h3",
-	                        { className: "section-heading hidden-lg-up" },
+	                        { className: "section-heading hidden-lg-up d-block d-sm-block d-md-none d-lg-none" },
 	                        "tools",
 	                        _react2.default.createElement(
 	                            "a",
-	                            { className: "next-page btn", role: "button", href: "/projects" },
+	                            { className: "next-page btn", role: "button", href: "#projects" },
 	                            _react2.default.createElement("img", { src: "../../static/img/projects-white.png", className: "my-icons" }),
 	                            " projects"
 	                        )
 	                    )
 	                ),
-	                _react2.default.createElement("div", { className: "hidden-lg-down col-xl-2" }),
 	                _react2.default.createElement(
 	                    "div",
-	                    { className: "col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-2" },
+	                    { className: "col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-3" },
 	                    _react2.default.createElement(
 	                        "ul",
 	                        { className: "tech-list" },
@@ -20228,39 +20222,39 @@
 	                        ),
 	                        _react2.default.createElement(
 	                            "li",
-	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 5/5</strong></span>" },
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: rgba(78, 173, 146, 1);'><strong>XP 5/5</strong></span>" },
 	                            "Python"
 	                        ),
 	                        _react2.default.createElement(
 	                            "li",
-	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 4/5</strong></span>" },
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: rgba(78, 173, 146, 1);'><strong>XP 5/5</strong></span>" },
 	                            "JavaScript"
 	                        ),
 	                        _react2.default.createElement(
 	                            "li",
-	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 5/5</strong></span>" },
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: rgba(78, 173, 146, 1);'><strong>XP 5/5</strong></span>" },
 	                            "HTML5"
 	                        ),
 	                        _react2.default.createElement(
 	                            "li",
-	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 5/5</strong></span>" },
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: rgba(78, 173, 146, 1);'><strong>XP 5/5</strong></span>" },
 	                            "CSS3"
 	                        ),
 	                        _react2.default.createElement(
 	                            "li",
-	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 4/5</strong></span>" },
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: rgba(78, 173, 146, 1);'><strong>XP 4/5</strong></span>" },
 	                            "SQL"
 	                        ),
 	                        _react2.default.createElement(
 	                            "li",
-	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 4/5</strong></span>" },
-	                            "Unix Commands"
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: rgba(78, 173, 146, 1);'><strong>XP 4/5</strong></span>" },
+	                            "Bash"
 	                        )
 	                    )
 	                ),
 	                _react2.default.createElement(
 	                    "div",
-	                    { className: "col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-2" },
+	                    { className: "col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-3" },
 	                    _react2.default.createElement(
 	                        "ul",
 	                        { className: "tech-list" },
@@ -20271,134 +20265,157 @@
 	                        ),
 	                        _react2.default.createElement(
 	                            "li",
-	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 5/5</strong></span>" },
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: rgba(78, 173, 146, 1);'><strong>XP 5/5</strong></span>" },
 	                            "Flask"
 	                        ),
 	                        _react2.default.createElement(
 	                            "li",
-	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 3/5</strong></span>" },
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: rgba(78, 173, 146, 1);'><strong>XP 4/5</strong></span>" },
 	                            "Django"
 	                        ),
 	                        _react2.default.createElement(
 	                            "li",
-	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 4/5</strong></span>" },
-	                            "jQuery"
-	                        ),
-	                        _react2.default.createElement(
-	                            "li",
-	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 4/5</strong></span>" },
-	                            "Node"
-	                        ),
-	                        _react2.default.createElement(
-	                            "li",
-	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 4/5</strong></span>" },
-	                            "Express"
-	                        ),
-	                        _react2.default.createElement(
-	                            "li",
-	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 3/5</strong></span>" },
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: rgba(78, 173, 146, 1);'><strong>XP 4/5</strong></span>" },
 	                            "React"
 	                        ),
 	                        _react2.default.createElement(
 	                            "li",
-	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 5/5</strong></span>" },
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: rgba(78, 173, 146, 1);'><strong>XP 5/5</strong></span>" },
+	                            "jQuery"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: rgba(78, 173, 146, 1);'><strong>XP 4/5</strong></span>" },
+	                            "Node"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: rgba(78, 173, 146, 1);'><strong>XP 4/5</strong></span>" },
+	                            "Express"
+	                        )
+	                    )
+	                ),
+	                _react2.default.createElement(
+	                    "div",
+	                    { className: "col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2" },
+	                    _react2.default.createElement(
+	                        "ul",
+	                        { className: "tech-list" },
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-header" },
+	                            "Data Stores"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: rgba(78, 173, 146, 1);'><strong>XP 4/5</strong></span>" },
+	                            "PostgreSQL"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: rgba(78, 173, 146, 1);'><strong>XP 4/5</strong></span>" },
+	                            "Redis"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: rgba(78, 173, 146, 1);'><strong>XP 3/5</strong></span>" },
+	                            "SQLite"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-header" },
+	                            "Interaction"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: rgba(78, 173, 146, 1);'><strong>XP 3/5</strong></span>" },
+	                            "Web Sockets"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: rgba(78, 173, 146, 1);'><strong>XP 5/5</strong></span>" },
+	                            "AJAX"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: rgba(78, 173, 146, 1);'><strong>XP 5/5</strong></span>" },
 	                            "Bootstrap"
 	                        )
 	                    )
 	                ),
 	                _react2.default.createElement(
 	                    "div",
-	                    { className: "col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-2" },
+	                    { className: "col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2" },
 	                    _react2.default.createElement(
 	                        "ul",
 	                        { className: "tech-list" },
 	                        _react2.default.createElement(
 	                            "li",
 	                            { className: "tech-list-header" },
-	                            "Database + Deployment"
+	                            "Deployment"
 	                        ),
 	                        _react2.default.createElement(
 	                            "li",
-	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 3/5</strong></span>" },
-	                            "PostgreSQL"
-	                        ),
-	                        _react2.default.createElement(
-	                            "li",
-	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 3/5</strong></span>" },
-	                            "SQLite"
-	                        ),
-	                        _react2.default.createElement(
-	                            "li",
-	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 3/5</strong></span>" },
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: rgba(78, 173, 146, 1);'><strong>XP 5/5</strong></span>" },
 	                            "Heroku"
 	                        ),
 	                        _react2.default.createElement(
 	                            "li",
-	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 2/5</strong></span>" },
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: rgba(78, 173, 146, 1);'><strong>XP 3/5</strong></span>" },
 	                            "AWS"
 	                        ),
 	                        _react2.default.createElement(
 	                            "li",
-	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 3/5</strong></span>" },
-	                            "Docker"
+	                            { className: "tech-list-header" },
+	                            "OS"
 	                        ),
 	                        _react2.default.createElement(
 	                            "li",
-	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 5/5</strong></span>" },
-	                            "Atlassian Suite"
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: rgba(78, 173, 146, 1);'><strong>XP 4/5</strong></span>" },
+	                            "Linux"
 	                        ),
 	                        _react2.default.createElement(
 	                            "li",
-	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 2/5</strong></span>" },
-	                            "Security"
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: rgba(78, 173, 146, 1);'><strong>XP 5/5</strong></span>" },
+	                            "macOS (OS X)"
 	                        )
 	                    )
 	                ),
 	                _react2.default.createElement(
 	                    "div",
-	                    { className: "col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-2" },
+	                    { className: "col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2" },
 	                    _react2.default.createElement(
 	                        "ul",
 	                        { className: "tech-list" },
 	                        _react2.default.createElement(
 	                            "li",
 	                            { className: "tech-list-header" },
-	                            "Web + OS + Tools"
+	                            "Tools"
 	                        ),
 	                        _react2.default.createElement(
 	                            "li",
-	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 5/5</strong></span>" },
-	                            "AJAX"
-	                        ),
-	                        _react2.default.createElement(
-	                            "li",
-	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 3/5</strong></span>" },
-	                            "Web Sockets"
-	                        ),
-	                        _react2.default.createElement(
-	                            "li",
-	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 3/5</strong></span>" },
-	                            "Linux"
-	                        ),
-	                        _react2.default.createElement(
-	                            "li",
-	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 5/5</strong></span>" },
-	                            "macOS (OS X)"
-	                        ),
-	                        _react2.default.createElement(
-	                            "li",
-	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 5/5</strong></span>" },
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: rgba(78, 173, 146, 1);'><strong>XP 5/5</strong></span>" },
 	                            "Git"
 	                        ),
 	                        _react2.default.createElement(
 	                            "li",
-	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 5/5</strong></span>" },
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: rgba(78, 173, 146, 1);'><strong>XP 5/5</strong></span>" },
 	                            "GitHub"
 	                        ),
 	                        _react2.default.createElement(
 	                            "li",
-	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: #5EC993;'><strong>XP 5/5</strong></span>" },
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: rgba(78, 173, 146, 1);'><strong>XP 5/5</strong></span>" },
 	                            "BitBucket"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: rgba(78, 173, 146, 1);'><strong>XP 5/5</strong></span>" },
+	                            "Atlassian Suite"
+	                        ),
+	                        _react2.default.createElement(
+	                            "li",
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: rgba(78, 173, 146, 1);'><strong>XP 3/5</strong></span>" },
+	                            "Docker"
 	                        )
 	                    )
 	                ),
@@ -20461,10 +20478,10 @@
 	                    _react2.default.createElement(
 	                        "h3",
 	                        { className: "section-heading" },
-	                        "Projects",
+	                        "projects",
 	                        _react2.default.createElement(
 	                            "a",
-	                            { className: "next-page btn", role: "button", href: "/resume" },
+	                            { className: "next-page btn", role: "button", href: "#resume" },
 	                            _react2.default.createElement("img", { src: "../../static/img/resume-white.png", className: "my-icons" }),
 	                            " r\xE9sum\xE9"
 	                        )
@@ -20490,7 +20507,9 @@
 	                                _react2.default.createElement(
 	                                    "p",
 	                                    { className: "card-text" },
-	                                    "An application built with another instructor as an example for students to reference in the Hackbright Part-Time Program. It uses Python, Flask, HTML and CSS to illustrate computer science fundamentals, including APIs, modules and requests."
+	                                    "This is a simple application that takes in a user's location and returns whether or not they should wear a jacket, as well as the current weather using the Accuweather API.",
+	                                    _react2.default.createElement("br", null),
+	                                    "It uses Python Flask as a backend which retrieves data from Accuweather and passes it back to the React client. The DOM components are rendered with different styling and animations based on current weather conditions."
 	                                )
 	                            ),
 	                            _react2.default.createElement("img", { className: "card-img-top img-fluid", id: "project-gif", src: "../../static/img/wear-jacket.gif", alt: "should i wear a jacket gif" }),
@@ -20500,15 +20519,15 @@
 	                                _react2.default.createElement(
 	                                    "li",
 	                                    { className: "list-group-item card-list" },
-	                                    "Built With | Python, HTML, CSS, Flask, Jinja2, AccuWeather API"
+	                                    "Built With | Python, JavaScript, Flask, React, HTML, CSS, AccuWeather API"
 	                                )
 	                            ),
 	                            _react2.default.createElement(
 	                                "div",
-	                                { className: "card-block" },
+	                                { className: "card-block card-bottom-block" },
 	                                _react2.default.createElement(
 	                                    "a",
-	                                    { href: "https://github.com/designsbytraina/flask-weather-app", className: "card-link github-link" },
+	                                    { href: "https://github.com/designsbytraina/react-weather-check", className: "card-link github-link" },
 	                                    "GitHub"
 	                                )
 	                            )
@@ -20516,7 +20535,7 @@
 	                    ),
 	                    _react2.default.createElement(
 	                        "div",
-	                        { className: "col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch" },
+	                        { className: "col-lg-4 col-md-6 col-sm-12 col-xs-12 flex-column" },
 	                        _react2.default.createElement(
 	                            "div",
 	                            { className: "card" },
@@ -20549,10 +20568,46 @@
 	                            ),
 	                            _react2.default.createElement(
 	                                "div",
-	                                { className: "card-block" },
+	                                { className: "card-block card-bottom-block" },
 	                                _react2.default.createElement(
 	                                    "a",
 	                                    { href: "https://github.com/designsbytraina/parle-lune", className: "card-link github-link" },
+	                                    "GitHub"
+	                                )
+	                            )
+	                        ),
+	                        _react2.default.createElement(
+	                            "div",
+	                            { className: "card" },
+	                            _react2.default.createElement(
+	                                "div",
+	                                { className: "card-block" },
+	                                _react2.default.createElement(
+	                                    "h4",
+	                                    { className: "card-title" },
+	                                    "tic-tac-toe"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "p",
+	                                    { className: "card-text" },
+	                                    "A command line interface for Tic-Tac-Toe written in Python."
+	                                )
+	                            ),
+	                            _react2.default.createElement(
+	                                "ul",
+	                                { className: "list-group list-group-flush" },
+	                                _react2.default.createElement(
+	                                    "li",
+	                                    { className: "list-group-item card-list" },
+	                                    "Built With | Python"
+	                                )
+	                            ),
+	                            _react2.default.createElement(
+	                                "div",
+	                                { className: "card-block card-bottom-block" },
+	                                _react2.default.createElement(
+	                                    "a",
+	                                    { href: "https://github.com/designsbytraina/python-tictactoe", className: "card-link github-link" },
 	                                    "GitHub"
 	                                )
 	                            )
@@ -20596,12 +20651,12 @@
 	                                _react2.default.createElement(
 	                                    "li",
 	                                    { className: "list-group-item card-list" },
-	                                    "Built With | Python, JavaScript, jQuery, HTML, CSS, SQLAlchemy, PostgreSQL, Flask, Jinja, Bootstrap, Google Maps API, Yelp API"
+	                                    "Built With | Python, JavaScript, Flask, jQuery, HTML, CSS, SQLAlchemy, PostgreSQL, Jinja, Bootstrap, Google Maps API, Yelp API"
 	                                )
 	                            ),
 	                            _react2.default.createElement(
 	                                "div",
-	                                { className: "card-block" },
+	                                { className: "card-block card-bottom-block" },
 	                                _react2.default.createElement(
 	                                    "a",
 	                                    { href: "https://github.com/designsbytraina/pokeseepokedo", className: "card-link github-link" },
@@ -20612,7 +20667,7 @@
 	                    ),
 	                    _react2.default.createElement(
 	                        "div",
-	                        { className: "col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch" },
+	                        { className: "col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex align-items-stretch" },
 	                        _react2.default.createElement(
 	                            "div",
 	                            { className: "card" },
@@ -20622,12 +20677,12 @@
 	                                _react2.default.createElement(
 	                                    "h4",
 	                                    { className: "card-title" },
-	                                    "tic-tac-toe"
+	                                    "this portfolio !!!"
 	                                ),
 	                                _react2.default.createElement(
 	                                    "p",
 	                                    { className: "card-text" },
-	                                    "A command line interface for Tic-Tac-Toe written in Python."
+	                                    "This site was made with Django, React + \u2665 and deployed to Heroku."
 	                                )
 	                            ),
 	                            _react2.default.createElement(
@@ -20636,55 +20691,15 @@
 	                                _react2.default.createElement(
 	                                    "li",
 	                                    { className: "list-group-item card-list" },
-	                                    "Built With | Python"
+	                                    "Built With | Python, JavaScript, Django, React, Bootstrap"
 	                                )
 	                            ),
 	                            _react2.default.createElement(
 	                                "div",
-	                                { className: "card-block" },
+	                                { className: "card-block card-bottom-block" },
 	                                _react2.default.createElement(
 	                                    "a",
-	                                    { href: "https://github.com/designsbytraina/python-tictactoe", className: "card-link github-link" },
-	                                    "GitHub"
-	                                )
-	                            )
-	                        )
-	                    ),
-	                    _react2.default.createElement(
-	                        "div",
-	                        { className: "col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch" },
-	                        _react2.default.createElement(
-	                            "div",
-	                            { className: "card" },
-	                            _react2.default.createElement(
-	                                "div",
-	                                { className: "card-block" },
-	                                _react2.default.createElement(
-	                                    "h4",
-	                                    { className: "card-title" },
-	                                    "this portfolio"
-	                                ),
-	                                _react2.default.createElement(
-	                                    "p",
-	                                    { className: "card-text" },
-	                                    "This site was made with Flask + Love and deployed to Heroku."
-	                                )
-	                            ),
-	                            _react2.default.createElement(
-	                                "ul",
-	                                { className: "list-group list-group-flush" },
-	                                _react2.default.createElement(
-	                                    "li",
-	                                    { className: "list-group-item card-list" },
-	                                    "Built With | Python, Flask, Jinja, Bootstrap, Heroku"
-	                                )
-	                            ),
-	                            _react2.default.createElement(
-	                                "div",
-	                                { className: "card-block" },
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { href: "https://github.com/designsbytraina/designsbytraina", className: "card-link github-link" },
+	                                    { href: "https://github.com/designsbytraina/django-portfolio-redesign", className: "card-link github-link" },
 	                                    "GitHub"
 	                                )
 	                            )
@@ -20749,10 +20764,10 @@
 	                    _react2.default.createElement(
 	                        "h3",
 	                        { className: "section-heading" },
-	                        "resume",
+	                        "r\xE9sum\xE9",
 	                        _react2.default.createElement(
 	                            "a",
-	                            { className: "next-page btn", role: "button", href: "/contact" },
+	                            { className: "next-page btn", role: "button", href: "#contact" },
 	                            _react2.default.createElement("img", { src: "../../static/img/contact-white.png", className: "my-icons" }),
 	                            " contact"
 	                        )
@@ -20850,8 +20865,8 @@
 	                        "contact",
 	                        _react2.default.createElement(
 	                            "a",
-	                            { className: "next-page btn", role: "button", href: "/" },
-	                            "back"
+	                            { className: "next-page btn", role: "button", href: "#home" },
+	                            "back to top"
 	                        )
 	                    )
 	                ),

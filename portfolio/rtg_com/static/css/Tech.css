@@ -2,18 +2,21 @@
 #technologies {
     /*background-color: #C45271;*/
     /*background-color: #BC9EF3;*/
-    background-color: #5EC993;
+    /*background-color: #5EC993;*/
+    background-color: rgba(78, 173, 146, 1);
     color: white;
     height: 100%;
     /*padding: 30px 18px;*/
 }
 .tech-list-header {
-    text-align: center;
-    padding: 5px;
+    /*text-align: center;*/
+    padding: 5px 0;
     margin: 2px 5px 8px 5px;
     width: 80%;
-    font-family: 'Bungee Hairline', cursive;
-    /*font-size: medium;*/
+    /*font-family: 'Bungee Hairline', cursive;*/
+    /*font-family: 'VT323', monospace;*/
+    font-size: 11px;
+    /*font-size: large;*/
 }
 .tech-list {
     list-style: none;
@@ -24,24 +27,29 @@
     /*background-color: rgba(237,187, 83,.2);*/
     /*background-color: rgba(228,242,82,.1);*/
     /*border: 1px solid rgba(237,187, 83,.9);*/
-    background-color: rgba(228,242,82,.9);
+    /*background-color: rgba(228,242,82,.9);*/
+    background-color: rgba(242, 236, 60, .9);
     /*border: 1px solid rgba(228,242,82,.9); */
-    color: #5EC993;
+    /*color: #5EC993;*/
+    color:rgba(78, 173, 146, 1);
     /*border-radius: 10px;*/
     text-align: center;
     padding: 5px;
     margin: 5px 5px;
     width: 80%;
-    font-family: 'Bungee', cursive;
+    /*font-family: 'Bungee', cursive;*/
+    font-family: 'VT323', monospace;
     /*font-size: large;*/
-    /*font-size: small;*/
+    /*font-size: 12px;*/
+    font-size: medium;
     /*text-decoration: none;*/
     /*padding: 0 20px;*/
     /*box-shadow: 1px 1px 1px rgba(13,10,4,.5);*/
 }
 .tech-list-item:hover {
     /*background-color: rgba(237,187, 83,.7);*/
-    background-color: rgba(228,242,82,.5);
+    /*background-color: rgba(228,242,82,.5);*/
+    background-color: rgba(242, 236, 60, .5);
     color: white;
     /*color: rgba(237,187, 83,1);*/
 }

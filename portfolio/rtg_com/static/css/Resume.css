@@ -2,7 +2,8 @@
 #resume {
     /*background-color: #3D3656;*/
     /*background-color: #C45271;*/
-    background-color: #6F94BD;
+    /*background-color: #6F94BD;*/
+    background-color: #73b0e2;
     color: white;
     height: 100%;
     /*padding: 20px 18px;*/
@@ -25,11 +26,15 @@
     /*margin-left: 17px;*/
     /*text-decoration: none;*/
     /*color: black;*/
-    color:#6F94BD;
+    /*color:#6F94BD;*/
+    color:#73b0e2;
+    padding:5px;
+    display:inline-block;
 }
 #download-button:hover {
     color: white;
 }
 #resume-heading {
-    font-family: 'Bungee Hairline', cursive;
+    /*font-family: 'Bungee Hairline', cursive;*/
+    font-family: 'VT323', monospace;
 }

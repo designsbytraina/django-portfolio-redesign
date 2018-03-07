@@ -1,7 +1,10 @@
 /* Home */
 #home {
-    padding: 10% 6%;
-    background-color: #E4F252;
+    padding: 23% 5%;
+    /*background-color: #E4F252;*/
+    /*background-color: #73b0e2;*/
+    /*background-color: #f2ec3c;*/
+    background-color: #e6c2ef;
     color: white;
     /*height: 120%;*/
     margin-bottom: 0px;
@@ -16,3 +19,4 @@
     font-size: large;
     border: 1px solid white;
 }
+.display-3 {}

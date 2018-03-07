@@ -4,46 +4,73 @@
     /*background-color: #7F456E;*/
     /*background-color: #2778C7;*/
     /*background-color: #2E8D90;*/
-    background-color: #39AFB2;
+    /*background-color: #39AFB2;*/
+    background-color: #e8a3a0;
     height: 100%;
-    /*color: white;*/
+    color: white;
     /*padding: 30px 18px;*/
 }
 .card {
     /*background-color: rgba(237,187, 83,.1);*/
     /*background-color: rgba(228,242,82,.1); */
-    background-color: #39AFB2;
-    color: white;
-    margin: 15px -7px;
-    box-shadow: 1px 1px 1px rgba(13,10,4,.5);
-    border-radius: 10px;
+    /*background-color: #39AFB2;*/
+    /*margin-bottom: 3%;*/
+    background-color: #e8a3a0;
+    /*color: dimgrey;*/
+    color:white;
+    /*margin: 15px -7px;*/
+    /*box-shadow: 1px 1px 1px rgba(13,10,4,.5);*/
+    /*border-radius: 10px;*/
     /*border: 1px solid rgba(237,187, 83,.9);*/
-    border: 1px solid rgba(228,242,82,.9); 
+    /*border: 1px solid rgba(228,242,82,.9); */
+    border: 1px solid rgba(242, 236, 60, .9);
 }
 .card:hover{
-    background-color: rgba(61,188,191,.8); 
+    /*background-color: rgba(61,188,191,.8); */
+    /*background-color: rgba(78, 173, 146, .7);*/
+    background-color: rgba(255, 255, 255, .1);
+    color: dimgrey;
+    /*background-color: rgba(242, 236, 60, .4);*/
+}
+.card-deck .card{
+    margin-bottom: 3%;
 }
 .card-title {
-    font-family: 'Bungee Hairline', cursive;
+    /*font-family: 'Bungee Hairline', cursive;*/
+    padding: 1%;
+    font-family: 'VT323', monospace;
+    /*font-size: x-large;*/
+}
+.card-bottom-block {
+    height: 27px;
+    padding: 0;
+}
+.card-text {
+    padding: 1% 1% 2% 1%;
 }
 .github-link {
 /*            border-radius: 10px;
     background-color: rgba(237,187, 83,.1);
     color: rgba(237,187, 83,1);
     border: 1px solid rgba(237,187, 83,1);*/
-    padding: 10px;
+    padding: 5px 2px;
+    /*margin-left: 20px;*/
     /*border-radius: 5px;*/
     /*background-color: rgba(237,187, 83,1);*/
-    background-color: rgba(228,242,82,1); 
-    color: #39AFB2;
-    font-family: 'Bungee', cursive;
+    /*background-color: rgba(228,242,82,1); */
+    background-color: rgb(242, 236, 60);
+    /*color: #39AFB2;*/
+    color: #55398c;
+    /*font-family: 'Bungee', cursive;*/
+    font-family: 'VT323', monospace;
     letter-spacing: 2px;
     font-size: large;
     text-align: center;
 }
 .github-link:hover {
-    background-color: rgba(237,187, 83,.8);
-    background-color: rgba(228,242,82,.8); 
+    /*background-color: rgba(237,187, 83,.8);*/
+    /*background-color: rgba(228,242,82,.8); */
+    background-color: rgba(242, 236, 60, .8);
     color: white;
 }
 .list-group-item {

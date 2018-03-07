@@ -13,8 +13,8 @@ export default class Resume extends React.Component {
         return (
           <div id="resume" className="row subsection-dividers">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                  <h3 className="section-heading">resume
-                      <a className="next-page btn" role="button" href="/contact"><img src="../../static/img/contact-white.png" className="my-icons" /> contact</a>
+                  <h3 className="section-heading">r&eacute;sum&eacute;
+                      <a className="next-page btn" role="button" href="#contact"><img src="../../static/img/contact-white.png" className="my-icons" /> contact</a>
 
               </h3>
               </div>
