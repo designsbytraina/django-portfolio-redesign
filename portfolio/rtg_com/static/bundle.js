@@ -20535,7 +20535,7 @@
 	                    ),
 	                    _react2.default.createElement(
 	                        "div",
-	                        { className: "col-lg-4 col-md-6 col-sm-12 col-xs-12 flex-column" },
+	                        { className: "col-lg-4 col-md-6 col-sm-12 col-xs-12 flex-column align-items-stretch d-flex", style: { display: '-webkit-box!important' } },
 	                        _react2.default.createElement(
 	                            "div",
 	                            { className: "card" },
@@ -20872,7 +20872,7 @@
 	                ),
 	                _react2.default.createElement(
 	                    "div",
-	                    { className: "col-xs-12 col-sm-12 col-md-12 col-lg-6 about-text" },
+	                    { className: "col-xs-12 col-sm-12 col-md-5 col-lg-5", id: "contact-icons-div" },
 	                    _react2.default.createElement(
 	                        "p",
 	                        null,
@@ -20898,7 +20898,7 @@
 	                        )
 	                    )
 	                ),
-	                _react2.default.createElement("div", { className: "typeform-widget col-lg-6 col-xs-12 col-sm-12 col-md-12", id: "typeform-contact", "data-url": "https://rachel551.typeform.com/to/KIcljG" }),
+	                _react2.default.createElement("div", { className: "typeform-widget col-lg-7 col-xs-12 col-sm-12 col-md-7", id: "typeform-contact", "data-url": "https://rachel551.typeform.com/to/KIcljG" }),
 	                _react2.default.createElement(
 	                    "div",
 	                    null,

@@ -10,6 +10,10 @@
     padding-bottom: 10%;
     /*padding: 20px 18px;*/
 }
+#contact-icons-div {
+    margin: 15px 0;
+    text-align: center;
+}
 #contact-me {
     /*color: #625896;*/
     /*color: #6E24E5;*/
@@ -52,5 +56,6 @@
     border-top: 1px solid rgba(228,242,82,1);
     border-bottom: 1px solid rgba(228,242,82,1);*/
     /*margin: 10px;*/
+    height: 250px;
 }
 

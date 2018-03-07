@@ -33,7 +33,7 @@ export default class Projects extends React.Component {
                           </div>
                       </div>
                   </div>
-                  <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 flex-column">
+                  <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 flex-column align-items-stretch d-flex" style={{display:'-webkit-box!important'}}>
                       <div className="card">
                           <div className="card-block">
                               <h4 className="card-title">parl&eacute; lune</h4>
