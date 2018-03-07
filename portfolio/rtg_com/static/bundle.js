@@ -20635,7 +20635,7 @@
 	                                    _react2.default.createElement("br", null),
 	                                    _react2.default.createElement(
 	                                        "a",
-	                                        { href: "https://pokeseepokedo.herokuapp.com", className: "card-link github-link" },
+	                                        { href: "https://pokeseepokedo.herokuapp.com", className: "card-link github-link", style: { marginLeft: '-4px' } },
 	                                        "View Demo"
 	                                    )
 	                                )
@@ -20667,7 +20667,7 @@
 	                    ),
 	                    _react2.default.createElement(
 	                        "div",
-	                        { className: "col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex align-items-stretch" },
+	                        { className: "col-lg-12 col-md-6 col-sm-12 col-xs-12" },
 	                        _react2.default.createElement(
 	                            "div",
 	                            { className: "card" },

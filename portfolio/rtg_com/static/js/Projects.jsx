@@ -65,7 +65,7 @@ export default class Projects extends React.Component {
                           <div className="card-block">
                               <h4 className="card-title">pok&eacute;see pok&eacute;do</h4>
                               <p className="card-text">A companion application for Pok&eacute;mon GO which allows users to plan an optimized route for catching Pok&eacute;mon, while visiting local points of interest and having fun with friends. As the user traverses zir path, Pok&eacute;mon can be marked as 'caught' and added to zir collection of Pok&eacute;mon, which can later be accessed from the user's profile page.<br /><br />
-                                  <a href="https://pokeseepokedo.herokuapp.com" className="card-link github-link">View Demo</a>
+                                  <a href="https://pokeseepokedo.herokuapp.com" className="card-link github-link" style={{marginLeft:'-4px'}}>View Demo</a>
                               </p>
                           </div>
                           <div className="embed-responsive embed-responsive-16by9">
@@ -79,7 +79,7 @@ export default class Projects extends React.Component {
                           </div>
                       </div>
                   </div>
-                  <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex align-items-stretch">
+                  <div className="col-lg-12 col-md-6 col-sm-12 col-xs-12">
                       <div className="card">
                         <div className="card-block">
                             <h4 className="card-title">this portfolio !!!</h4>
