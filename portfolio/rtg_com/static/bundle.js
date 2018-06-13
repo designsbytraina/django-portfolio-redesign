@@ -20270,7 +20270,7 @@
 	                        ),
 	                        _react2.default.createElement(
 	                            "li",
-	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: rgba(78, 173, 146, 1);'><strong>XP 4/5</strong></span>" },
+	                            { className: "tech-list-item", "data-toggle": "tooltip", "data-placement": "right", "data-html": "true", title: "<span style='color: rgba(78, 173, 146, 1);'><strong>XP 3/5</strong></span>" },
 	                            "Django"
 	                        ),
 	                        _react2.default.createElement(

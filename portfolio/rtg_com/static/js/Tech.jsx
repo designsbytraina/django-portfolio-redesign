@@ -36,7 +36,7 @@ export default class Tech extends React.Component {
                   <ul className="tech-list">
                       <li className="tech-list-header">Frameworks</li>
                       <li className="tech-list-item" data-toggle="tooltip" data-placement="right" data-html="true" title="<span style='color: rgba(78, 173, 146, 1);'><strong>XP 5/5</strong></span>">Flask</li>
-                      <li className="tech-list-item" data-toggle="tooltip" data-placement="right" data-html="true" title="<span style='color: rgba(78, 173, 146, 1);'><strong>XP 4/5</strong></span>">Django</li>
+                      <li className="tech-list-item" data-toggle="tooltip" data-placement="right" data-html="true" title="<span style='color: rgba(78, 173, 146, 1);'><strong>XP 3/5</strong></span>">Django</li>
                       <li className="tech-list-item" data-toggle="tooltip" data-placement="right" data-html="true" title="<span style='color: rgba(78, 173, 146, 1);'><strong>XP 4/5</strong></span>">React</li>
                       <li className="tech-list-item" data-toggle="tooltip" data-placement="right" data-html="true" title="<span style='color: rgba(78, 173, 146, 1);'><strong>XP 5/5</strong></span>">jQuery</li>
                       <li className="tech-list-item" data-toggle="tooltip" data-placement="right" data-html="true" title="<span style='color: rgba(78, 173, 146, 1);'><strong>XP 4/5</strong></span>">Node</li>
